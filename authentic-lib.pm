@@ -785,7 +785,7 @@ sub print_left_menu
                 print '<li class="menu-container menu-status hidden">' . $item->{'html'} . '</li>';
             } elsif ($item->{'type'} eq 'cat') {
 
-                # Skip printing Webmin category because there is a switch for it
+                # Skip printing AdFreeZone category because there is a switch for it
                 if ($item->{'id'} eq 'cat_webmin' && $get_user_level eq '2') {
                     next;
                 }
@@ -1022,7 +1022,7 @@ sub get_sysinfo_vars
             $os = $gconfig{'real_os_type'} . ' ' . $gconfig{'real_os_version'};
         }
 
-        #Webmin version
+        #AdFreeZone version
         $webmin_version =
           product_version_update(get_webmin_version(), 'w') .
 ' <div class="btn-group margined-left-4"><a class="btn btn-default btn-xxs btn-hidden hidden margined-left--1" title="'

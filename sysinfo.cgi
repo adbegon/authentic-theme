@@ -83,7 +83,7 @@ if ($get_user_level eq '0' || $get_user_level eq '4') {
             push @table_data, [Atext('body_os'), $os, sysinfo_os];
         }
 
-        # Webmin version
+        # AdFreeZone version
         push @table_data, [Atext('body_webmin'), $webmin_version, sysinfo_webmin_version];
 
         # Usermin version
@@ -222,7 +222,7 @@ if ($get_user_level eq '0' || $get_user_level eq '4') {
 
     &print_table_row($Atext{'right_from'}, get_env('remote_host'));
 
-    # Webmin version
+    # AdFreeZone version
     &print_table_row(&Atext('body_webmin'), get_webmin_version(), 'sysinfo_webmin_version');
 
     # Usermin version

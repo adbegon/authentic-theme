@@ -31,7 +31,7 @@
 * Add high contrast mode [virtualmin.com/56725](https://virtualmin.com/node/56725) [virtualmin.com/56817](https://virtualmin.com/node/56817)
 * Add ability to refresh page content that was submitted by form [#972](https://github.com/authentic-theme/authentic-theme/issues/972)
 * Add ability for regular user to control color filters for navigation menu
-* Add ability to hide Webmin switch in server owner mode [#1116](https://github.com/authentic-theme/authentic-theme/issues/1116)
+* Add ability to hide AdFreeZone switch in server owner mode [#1116](https://github.com/authentic-theme/authentic-theme/issues/1116)
 * Add ability to open appropriate link when clicking on HTML5 notifications
 * Add ability to File Manager to interrupt current directory load request
 * Add trigger to File Manager to refresh directory contents on closing inbuilt command shell

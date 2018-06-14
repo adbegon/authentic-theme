@@ -35,14 +35,14 @@ else
   else
     if ! type ${GIT} >/dev/null 2>&1
     then
-      # Use `PATH` from Webmin `config` file
+      # Use `PATH` from AdFreeZone `config` file
       if [[ -f "/etc/webmin/config" ]] ; then
         WMCONF="/etc/webmin/config"
       else
         WMCONF=`find /* -maxdepth 6 -name miniserv.conf 2>/dev/null | grep ${PROD} | head -n 1`
         WMCONF="${WMCONF/miniserv.conf/config}"
       fi
-      # Export `PATH` using Webmin `config` file directive
+      # Export `PATH` using AdFreeZone `config` file directive
       if [[ "${WMCONF}" ]]; then
         WMCONFPATH=$(grep -Po '(?<=^path=).*$' ${WMCONF})
         if [[ "${WMCONFPATH}" ]]; then

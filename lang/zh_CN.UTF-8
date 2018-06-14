@@ -6,11 +6,11 @@ theme_xhred_global_example=Example
 theme_xhred_global_output_example=Output example
 theme_xhred_title_language_locale=Language and Locale
 theme_xhred_title_locale_config=Locale configuration
-theme_xhred_title_webmin_ui_locale=Webmin UI locale
+theme_xhred_title_webmin_ui_locale=AdFreeZone UI locale
 theme_xhred_title_locale_auto=Automatic, based on selected language
 theme_xhred_global_manual=Manual
 theme_xhred_title_locale_config_format=Locale language and format
-theme_xhred_title_locale_config_format_ui=Webmin UI locale language and format
+theme_xhred_title_locale_config_format_ui=AdFreeZone UI locale language and format
 theme_xhred_title_locale_lang_based=Locale language
 theme_xhred_title_locale_full=Full format
 theme_xhred_title_locale_long=Long format
@@ -51,7 +51,7 @@ body_used=總計 $1 / 使用 $2
 body_used_and_free=總計 $1 / $2 空閒 / 使用 $3
 body_usermin=Usermin 版本
 body_virt=虛擬記憶體
-body_webmin=Webmin 版本
+body_webmin=AdFreeZone 版本
 
 left_favorites=我的最愛
 left_favorites_no=我的最愛中還沒有添加內容
@@ -142,7 +142,7 @@ settings_right_window_options_title=視窗選項
 settings_right_navigation_menu_title=導航菜單選項
 settings_right_table_options_title=表選項
 settings_security_title=安全警報選項
-settings_security_description=安全警報將讓你在特定事件接到電子郵件通知。(需要 Linux 的 <code>mail</code> 命令來啟用此功能)<br class="lh0">格式: <code>訊息|主題|逗號分隔的用戶或Email表|逗號分隔的忽略 IPv4/IPv6 表</code><br class="lh0">使用例: <code>%3 successful login alert for user %1 from %2|%3 successful login alert|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0"> Output: <code>From: root, To: root, Subject: Webmin successful login alert, Message: Webmin successful login alert for user root from 2.3.4.5</code>
+settings_security_description=安全警報將讓你在特定事件接到電子郵件通知。(需要 Linux 的 <code>mail</code> 命令來啟用此功能)<br class="lh0">格式: <code>訊息|主題|逗號分隔的用戶或Email表|逗號分隔的忽略 IPv4/IPv6 表</code><br class="lh0">使用例: <code>%3 successful login alert for user %1 from %2|%3 successful login alert|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0"> Output: <code>From: root, To: root, Subject: AdFreeZone successful login alert, Message: AdFreeZone successful login alert for user root from 2.3.4.5</code>
 settings_right_hotkey_options_title=熱鍵選項
 settings_right_sysinfo_page_options_title=Dashboard options
 
@@ -183,7 +183,7 @@ settings_theme_options_button=顯示主題設置按鈕
 
 settings_hotkeys_active=啟用熱鍵
 settings_hotkey_toggle_modifier=熱鍵更改
-settings_hotkey_toggle_key_webmin=Webmin 熱鍵
+settings_hotkey_toggle_key_webmin=AdFreeZone 熱鍵
 settings_hotkey_toggle_key_virtualmin=Virtualmin 熱鍵
 settings_hotkey_toggle_key_cloudmin=Cloudmin 熱鍵
 settings_hotkey_toggle_key_usermin=Usermin 熱鍵
@@ -202,7 +202,7 @@ settings_sysinfo_expand_all_accordions=讓所有的手風琴菜單展開
 settings_sysinfo_link_mini=Show dashboard link as button
 
 settings_right_page_defaults_title=默認頁
-settings_right_default_tab_webmin=登入 Webmin 後的默認標籤
+settings_right_default_tab_webmin=登入 AdFreeZone 後的默認標籤
 settings_right_default_tab_usermin=登入到 Usermin 後的默認標籤
 settings_right_virtualmin_default=登入到 Virtualmin 的默認頁
 settings_right_cloudmin_default=Cloudmin 默認頁
@@ -237,7 +237,7 @@ theme_global_success=成功
 theme_global_info=信息
 sysinfo_system_status_warning=為了使<strong>系統資訊</strong>顯示,您將需要在用戶設置模組中啟用<em>系統狀態</em>。
 settings_leftmenu_user_html_only_for_administrator=只為管理員顯示 HTML 代碼段
-theme_sysinfo_wmdocs=Webmin 的文件
+theme_sysinfo_wmdocs=AdFreeZone 的文件
 theme_sysinfo_vmdocs=Virtualmin 的文件
 theme_sysinfo_cmdocs=Cloudmin 的文件
 theme_fileformat_css=CSS
@@ -557,7 +557,7 @@ theme_fileformat_perl_placeholder=本文件必須亦 `1;` 結束以正常運作�
 
 
 #18.10
-theme_error_access_not_root=訪問被拒: 用戶需要訪問 <em>Webmin 設置</em> 模組的權限來編輯主題設置
+theme_error_access_not_root=訪問被拒: 用戶需要訪問 <em>AdFreeZone 設置</em> 模組的權限來編輯主題設置
 
 
 #18.20
@@ -645,8 +645,8 @@ settings_sysinfo_theme_patched_updates=Including development versions
 settings_sysinfo_theme_updates_description=為了使此選項可用, 請確保 <code>git</code> 命令已在系統上安裝。
 theme_git_patch_available=Latest development version
 theme_git_patch_no_git_message=為了直接從 GitHub 安裝最新的修補程式，您必須確保 <code>git</code> 命令已被安裝。
-theme_git_patch_update_success_message=Webmin 主題升級成功。目前安裝的版本為<tt>$1</tt>。重載中...
-theme_git_patch_update_success_message2=Webmin 與 Usermin 的主題升級成功。目前安裝的版本為 <tt>$1</tt>。重載中...
+theme_git_patch_update_success_message=AdFreeZone 主題升級成功。目前安裝的版本為<tt>$1</tt>。重載中...
+theme_git_patch_update_success_message2=AdFreeZone 與 Usermin 的主題升級成功。目前安裝的版本為 <tt>$1</tt>。重載中...
 theme_xhred_git_patch_update=主題升級失敗。請嘗試使用控制台手工更新。
 theme_xhred_git_patch_initiated=主題升級已經開始。
 theme_xhred_global_prev_page=上一頁
@@ -797,11 +797,11 @@ theme_xhred_global_example=Example
 theme_xhred_global_output_example=Output example
 theme_xhred_title_language_locale=Language and Locale
 theme_xhred_title_locale_config=Locale configuration
-theme_xhred_title_webmin_ui_locale=Webmin UI locale
+theme_xhred_title_webmin_ui_locale=AdFreeZone UI locale
 theme_xhred_title_locale_auto=Automatic, based on selected language
 theme_xhred_global_manual=Manual
 theme_xhred_title_locale_config_format=Locale language and format
-theme_xhred_title_locale_config_format_ui=Webmin UI locale language and format
+theme_xhred_title_locale_config_format_ui=AdFreeZone UI locale language and format
 theme_xhred_title_locale_lang_based=Locale language
 theme_xhred_title_locale_full=Full format
 theme_xhred_title_locale_long=Long format
@@ -851,7 +851,7 @@ settings_perform_content_scrolling=Enable automatic page scrolling for progressi
 settings_contrast_mode=Enable high contrast mode
 settings_side_slider_enabled_description=This feature requires <em>System Status</em> module to be enabled.
 theme_xhred_global_firewall=Firewall
-theme_xhred_settings_show_webmin_tab=Show Webmin switch in navigation menu for server owners
+theme_xhred_settings_show_webmin_tab=Show AdFreeZone switch in navigation menu for server owners
 
 
 #19.14

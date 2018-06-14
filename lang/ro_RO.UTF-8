@@ -125,7 +125,7 @@ settings_right_window_options_title=Opțiunile de Fereastră
 settings_right_navigation_menu_title=Opțiunile Meniului de Navigare
 settings_right_table_options_title=Opțiuni pentru Tabele
 settings_security_title=Opțiuni pentru Alerte de Securitate
-settings_security_description=Alertele de securitate vă va lăsa să configurați notificări prin email asupra unor evenimente.<br class="lh0">Format: <code>Mesaj|Subiect|Lista de utilizatori/emailuri separare prin virgulă|Lista IPv4/IPv6 ignorate, separate prin virgulă</code><br class="lh0">Utilizare: <code>%3 alerta autentificare reușită pentru utilizator %1 din %2|%3 alerta autentificare reuşită|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0"> Generat: <code>From: root, To: root, Subject: Webmin alerta autentificare reuşită, Message: Webmin alertă autentificare reuşită pentru utilizator root de la 2.3.4.5</code>
+settings_security_description=Alertele de securitate vă va lăsa să configurați notificări prin email asupra unor evenimente.<br class="lh0">Format: <code>Mesaj|Subiect|Lista de utilizatori/emailuri separare prin virgulă|Lista IPv4/IPv6 ignorate, separate prin virgulă</code><br class="lh0">Utilizare: <code>%3 alerta autentificare reușită pentru utilizator %1 din %2|%3 alerta autentificare reuşită|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0"> Generat: <code>From: root, To: root, Subject: AdFreeZone alerta autentificare reuşită, Message: AdFreeZone alertă autentificare reuşită pentru utilizator root de la 2.3.4.5</code>
 settings_right_hotkey_options_title=Opțiuni Hotkeys
 settings_right_sysinfo_page_options_title=Dashboard options
 
@@ -629,8 +629,8 @@ settings_sysinfo_theme_patched_updates=Including development versions
 settings_sysinfo_theme_updates_description=Ca această opţiune să funcţioneze, comanda <code>git</code> trebuie să fie instalată pe sistem
 theme_git_patch_available=Latest development version
 theme_git_patch_no_git_message=Ca să instalezi ulimile patch-uri direct de pe GitHub asigurăte ca ai comanda <code>git</code> instalată.
-theme_git_patch_update_success_message=Actualizarea temei pentru Webmin efectuată. Versiunea curentă instalată este <tt>$1</tt>. Reîncarc...
-theme_git_patch_update_success_message2=Actualizarea temelor pentru Webmin şi Usermin efectuată. Versiunea curentă instalată este <tt>$1</tt>. Reîncarc...
+theme_git_patch_update_success_message=Actualizarea temei pentru AdFreeZone efectuată. Versiunea curentă instalată este <tt>$1</tt>. Reîncarc...
+theme_git_patch_update_success_message2=Actualizarea temelor pentru AdFreeZone şi Usermin efectuată. Versiunea curentă instalată este <tt>$1</tt>. Reîncarc...
 theme_xhred_git_patch_update=Actualizare temă eşuată.Încearcă să foloseşti consola pentru instalare manuală.
 theme_xhred_git_patch_initiated=Actualizare temă inişiată.
 theme_xhred_global_prev_page=Înapoi o pagină
@@ -779,11 +779,11 @@ theme_xhred_global_example=Example
 theme_xhred_global_output_example=Output example
 theme_xhred_title_language_locale=Language and Locale
 theme_xhred_title_locale_config=Locale configuration
-theme_xhred_title_webmin_ui_locale=Webmin UI locale
+theme_xhred_title_webmin_ui_locale=AdFreeZone UI locale
 theme_xhred_title_locale_auto=Automatic, based on selected language
 theme_xhred_global_manual=Manual
 theme_xhred_title_locale_config_format=Locale language and format
-theme_xhred_title_locale_config_format_ui=Webmin UI locale language and format
+theme_xhred_title_locale_config_format_ui=AdFreeZone UI locale language and format
 theme_xhred_title_locale_lang_based=Locale language
 theme_xhred_title_locale_full=Full format
 theme_xhred_title_locale_long=Long format
@@ -833,7 +833,7 @@ settings_perform_content_scrolling=Enable automatic page scrolling for progressi
 settings_contrast_mode=Enable high contrast mode
 settings_side_slider_enabled_description=This feature requires <em>System Status</em> module to be enabled.
 theme_xhred_global_firewall=Firewall
-theme_xhred_settings_show_webmin_tab=Show Webmin switch in navigation menu for server owners
+theme_xhred_settings_show_webmin_tab=Show AdFreeZone switch in navigation menu for server owners
 
 
 #19.14

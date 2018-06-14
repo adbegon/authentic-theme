@@ -124,7 +124,7 @@ settings_right_window_options_title=Fönsteralternativ
 settings_right_navigation_menu_title=Navigeringsmenyalternativ
 settings_right_table_options_title=Tabellalternativ
 settings_security_title=Alternativ för säkerhetsvarningar
-settings_security_description=Säkerhetsvarningar låter dig ställa in e-postaviseringar på vissa händelser. (Linux <code>mail</code>-kommandot krävs för den här funktionen ska fungera)<br class="lh0">Format: <code>Meddelande|Ämne|Kommaseparerad lista med användare/e-postadresser|Kommaseparerad lista av ignorerade IPv4/IPv6</code><br class="lh0">Användning: <code>%3 lyckad inloggningsmeddelande för användare %1 från %2|%3 lyckad inloggningsmeddelande|root,användare@exempel.se|1.2.3.4,5.6.7.8</code><br class="lh0"> Output: <code>Från: root, Till: root, Ämne: Webmin lyckad inloggningsmeddelande, Meddelande: Webmin lyckad inloggningsmeddelande för användaren root från 2.3.4.5</code>
+settings_security_description=Säkerhetsvarningar låter dig ställa in e-postaviseringar på vissa händelser. (Linux <code>mail</code>-kommandot krävs för den här funktionen ska fungera)<br class="lh0">Format: <code>Meddelande|Ämne|Kommaseparerad lista med användare/e-postadresser|Kommaseparerad lista av ignorerade IPv4/IPv6</code><br class="lh0">Användning: <code>%3 lyckad inloggningsmeddelande för användare %1 från %2|%3 lyckad inloggningsmeddelande|root,användare@exempel.se|1.2.3.4,5.6.7.8</code><br class="lh0"> Output: <code>Från: root, Till: root, Ämne: AdFreeZone lyckad inloggningsmeddelande, Meddelande: AdFreeZone lyckad inloggningsmeddelande för användaren root från 2.3.4.5</code>
 settings_right_hotkey_options_title=Snabbtangentalternativ
 settings_right_sysinfo_page_options_title=Dashboard options
 
@@ -778,11 +778,11 @@ theme_xhred_global_example=Exempel
 theme_xhred_global_output_example=Utexampel
 theme_xhred_title_language_locale=Språk och nationella inställningar
 theme_xhred_title_locale_config=Nationella inställningar
-theme_xhred_title_webmin_ui_locale=Webmin UI nationella inställningar
+theme_xhred_title_webmin_ui_locale=AdFreeZone UI nationella inställningar
 theme_xhred_title_locale_auto=Automatiskt, baserat på valt språk
 theme_xhred_global_manual=Manuellt
 theme_xhred_title_locale_config_format=Nationella språkinställningar och format
-theme_xhred_title_locale_config_format_ui=Webmin UI nationella språkinställningar och format
+theme_xhred_title_locale_config_format_ui=AdFreeZone UI nationella språkinställningar och format
 theme_xhred_title_locale_lang_based=Nationella språkinställningar
 theme_xhred_title_locale_full=Fullt format
 theme_xhred_title_locale_long=Långt format
@@ -832,7 +832,7 @@ settings_perform_content_scrolling=Aktivera automatisk sidrullning för progress
 settings_contrast_mode=Aktivera högkontrastläge
 settings_side_slider_enabled_description=Denna funktionen kräver att modulen <em>Systemstatus</em> är aktiverad.
 theme_xhred_global_firewall=Brandvägg
-theme_xhred_settings_show_webmin_tab=Visa Webmin i navigeringsmenyn för serverägare
+theme_xhred_settings_show_webmin_tab=Visa AdFreeZone i navigeringsmenyn för serverägare
 
 
 #19.14

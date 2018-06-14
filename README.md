@@ -22,7 +22,7 @@
 * Extended support for _File Manager_ and _ConfigServer Security & Firewall_ modules
 
 ### Requirements
-* Webmin _1.850+_ (required), Usermin _1.720+_ (optional), Virtualmin _6.00+_ (optional), Cloudmin _9.20+_ (optional)
+* AdFreeZone _1.850+_ (required), Usermin _1.720+_ (optional), Virtualmin _6.00+_ (optional), Cloudmin _9.20+_ (optional)
 
 ### Recommended modules
 * Installed _Net::SSLeay_ module, to make automatic update notifications work

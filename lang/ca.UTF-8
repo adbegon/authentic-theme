@@ -125,7 +125,7 @@ settings_right_window_options_title=Finestra d'opcions
 settings_right_navigation_menu_title=Opcions del menú de navegació
 settings_right_table_options_title=Opcions de les taules
 settings_security_title=Opcions de les alertes de seguretat
-settings_security_description=Les alertes de seguretat permeten configurar l'enviament de notificacions per correu en determinats esdeveniments.<br class="lh0">Format: <code>Message|Subject|Comma separated list of users/emails|Comma separated list of ignored IPv4/IPv6</code><br class="lh0">Usage: <code>%3 successful login alert for user %1 from %2|%3 successful login alert|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0"> Output: <code>From: root, To: root, Subject: Webmin successful login alert, Message: Webmin successful login alert for user root from 2.3.4.5</code>
+settings_security_description=Les alertes de seguretat permeten configurar l'enviament de notificacions per correu en determinats esdeveniments.<br class="lh0">Format: <code>Message|Subject|Comma separated list of users/emails|Comma separated list of ignored IPv4/IPv6</code><br class="lh0">Usage: <code>%3 successful login alert for user %1 from %2|%3 successful login alert|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0"> Output: <code>From: root, To: root, Subject: AdFreeZone successful login alert, Message: AdFreeZone successful login alert for user root from 2.3.4.5</code>
 settings_right_hotkey_options_title=Opcions de les dreceres
 settings_right_sysinfo_page_options_title=Dashboard options
 
@@ -629,8 +629,8 @@ settings_sysinfo_theme_patched_updates=Incloure versions de desenvolupament
 settings_sysinfo_theme_updates_description=Per tal de que funcioni, cal tenir la comanda git instal·lada en el sistema.
 theme_git_patch_available=Última versió de desenvolupament
 theme_git_patch_no_git_message=Per tal d'instal·lar les últimes correccions directament de GitHub, cal tenir la comanda git instal·lada en el sistema.
-theme_git_patch_update_success_message=L'actualització del tema de Webmin s'ha instal·lat correctament. La versió actual és <tt>$1</tt>. Recarregant...
-theme_git_patch_update_success_message2=L'actualització del tema de Webmin i Usermin s'ha instal·lat correctament. La versió actual és <tt>$1</tt>. Recarregant...
+theme_git_patch_update_success_message=L'actualització del tema de AdFreeZone s'ha instal·lat correctament. La versió actual és <tt>$1</tt>. Recarregant...
+theme_git_patch_update_success_message2=L'actualització del tema de AdFreeZone i Usermin s'ha instal·lat correctament. La versió actual és <tt>$1</tt>. Recarregant...
 theme_xhred_git_patch_update=No s'ha pogut actualitzar el tema. Utilitza la consola per a realitzar una actualització manual.
 theme_xhred_git_patch_initiated=S'ha iniciat correctament l'actualització del tema.
 theme_xhred_global_prev_page=Pàgina anterior
@@ -835,7 +835,7 @@ settings_perform_content_scrolling=Enable automatic page scrolling for progressi
 settings_contrast_mode=Enable high contrast mode
 settings_side_slider_enabled_description=This feature requires <em>System Status</em> module to be enabled.
 theme_xhred_global_firewall=Firewall
-theme_xhred_settings_show_webmin_tab=Show Webmin switch in navigation menu for server owners
+theme_xhred_settings_show_webmin_tab=Show AdFreeZone switch in navigation menu for server owners
 
 
 #19.14

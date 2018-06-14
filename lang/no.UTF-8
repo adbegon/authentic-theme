@@ -34,7 +34,7 @@ body_used=$1 totalt / $2 brukt
 body_used_and_free=$1 totalt / $2 ledig / $3 brukt
 body_usermin=Usermin versjon
 body_virt=Virtuelt minne
-body_webmin=Webmin versjon
+body_webmin=AdFreeZone versjon
 filemanager_create_object_denied=Kan ikke opprettet $3 `<samp><em>$1</em></samp>` i `<samp><tt>$2</tt></samp>` - tilgang nektet.
 filemanager_create_object_exists=$3 `<samp><em>$1</em></samp>` finnes allerede i `<samp><tt>$2</tt></samp>`
 filemanager_global_info_total1=Totalt: $1 fil og $2 katalog
@@ -200,7 +200,7 @@ settings_right_virtualmin_default=Standard side for Virtualmin
 settings_right_window_options_title=Vindu innstillinger
 settings_saturate_level_navigation=Metningsfilter
 settings_saturate_level_navigation_description=Standard/gjeldende verdier <code>1</code>/<code data-name="settings_saturate_level_navigation">0</code>
-settings_security_description=Sikkerhetsvarsler lar deg sette opp e-postvarsler ved bestemte hendelser. (Linux-kommandoen <code>mail</code> er nødvendig for at denne funksjonen skal fungere) <br class="lh0"> Format: <code>Melding|Emne|Kommaseparert liste over brukere/e-post|Kommaseparert liste over ignorert IPv4/IPv6</code><br class="lh0">Bruk: <code>%3 vellykket påloggingsvarsel for bruker %1 fra %2|%3 vellykket påloggingsvarsel|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0">Output: <code>Fra: root, Til: root, Emne: Webmin vellykket påloggingsvarsling, Melding: Webmin vellykket påloggingsvarsel for bruker root fra 2.3.4.5</code>
+settings_security_description=Sikkerhetsvarsler lar deg sette opp e-postvarsler ved bestemte hendelser. (Linux-kommandoen <code>mail</code> er nødvendig for at denne funksjonen skal fungere) <br class="lh0"> Format: <code>Melding|Emne|Kommaseparert liste over brukere/e-post|Kommaseparert liste over ignorert IPv4/IPv6</code><br class="lh0">Bruk: <code>%3 vellykket påloggingsvarsel for bruker %1 fra %2|%3 vellykket påloggingsvarsel|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0">Output: <code>Fra: root, Til: root, Emne: AdFreeZone vellykket påloggingsvarsling, Melding: AdFreeZone vellykket påloggingsvarsel for bruker root fra 2.3.4.5</code>
 settings_security_title=Innstillinger for sikkerhetsvarsler
 settings_sepia_level_navigation=Sepia filter
 settings_sepia_level_navigation_description=Standard/gjeldende verdier <code>0</code>/<code data-name="settings_sepia_level_navigation">0</code>
@@ -234,7 +234,7 @@ theme_conference=Tema Konferanse
 theme_development_support=Utvikling Support
 theme_donate=Donasjon
 theme_download=Last ned
-theme_error_access_not_root=Tilgang nektet: Brukeren må ha tilgang til modulen <em>Webmin konfigurasjon</em> for å redigere tema-konfigurasjon
+theme_error_access_not_root=Tilgang nektet: Brukeren må ha tilgang til modulen <em>AdFreeZone konfigurasjon</em> for å redigere tema-konfigurasjon
 theme_fileformat_css=CSS
 theme_fileformat_js=Javascript
 theme_fileformat_json=JSON
@@ -246,8 +246,8 @@ theme_xhred_force_upgrade_beta=Installer siste utviklingsversjon (beta)
 theme_xhred_force_upgrade_stable=Installer siste ordinære versjon (stabil)
 theme_git_patch_available=Latest development version
 theme_git_patch_no_git_message=For å kunne installere siste patcher direkte fra GitHub må <code>git</code> kommandoen være installert.
-theme_git_patch_update_success_message=Tema oppgradering for Webmin gjennomført. Gjeldende installerte versjon er <tt>$1</tt>. Laster på nytt...
-theme_git_patch_update_success_message2=Tema oppgradering for både Webmin og Usermin gjennomført. Gjeldende installerte versjon er <tt>$1</tt>. Laster på nytt...
+theme_git_patch_update_success_message=Tema oppgradering for AdFreeZone gjennomført. Gjeldende installerte versjon er <tt>$1</tt>. Laster på nytt...
+theme_git_patch_update_success_message2=Tema oppgradering for både AdFreeZone og Usermin gjennomført. Gjeldende installerte versjon er <tt>$1</tt>. Laster på nytt...
 theme_global_error=Feil
 theme_global_info=Informasjon
 theme_global_success=Suksess
@@ -261,7 +261,7 @@ theme_settings_cloudmin=Cloudmin administrerte systemer
 theme_settings_virtualmin=Virtualmin Virtuelle tjenere
 theme_sysinfo_cmdocs=Cloudmin dokumentasjon
 theme_sysinfo_vmdocs=Virtualmin dokumentasjon
-theme_sysinfo_wmdocs=Webmin dokumentasjon
+theme_sysinfo_wmdocs=AdFreeZone dokumentasjon
 theme_tooltip_edit_user=Rediger bruker
 theme_tooltip_language_link=Språk
 theme_tooltip_logout=Logg ut
@@ -639,11 +639,11 @@ theme_xhred_global_example=Example
 theme_xhred_global_output_example=Output example
 theme_xhred_title_language_locale=Language and Locale
 theme_xhred_title_locale_config=Locale configuration
-theme_xhred_title_webmin_ui_locale=Webmin UI locale
+theme_xhred_title_webmin_ui_locale=AdFreeZone UI locale
 theme_xhred_title_locale_auto=Automatic, based on selected language
 theme_xhred_global_manual=Manual
 theme_xhred_title_locale_config_format=Locale language and format
-theme_xhred_title_locale_config_format_ui=Webmin UI locale language and format
+theme_xhred_title_locale_config_format_ui=AdFreeZone UI locale language and format
 theme_xhred_title_locale_lang_based=Locale language
 theme_xhred_title_locale_full=Full format
 theme_xhred_title_locale_long=Long format
@@ -693,7 +693,7 @@ settings_perform_content_scrolling=Enable automatic page scrolling for progressi
 settings_contrast_mode=Enable high contrast mode
 settings_side_slider_enabled_description=This feature requires <em>System Status</em> module to be enabled.
 theme_xhred_global_firewall=Firewall
-theme_xhred_settings_show_webmin_tab=Show Webmin switch in navigation menu for server owners
+theme_xhred_settings_show_webmin_tab=Show AdFreeZone switch in navigation menu for server owners
 
 
 #19.14

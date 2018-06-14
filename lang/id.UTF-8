@@ -124,7 +124,7 @@ settings_right_window_options_title=Pilihan jendela
 settings_right_navigation_menu_title=Pilihan menu navigasi
 settings_right_table_options_title=Pilihan tabel
 settings_security_title=Security Alerts options
-settings_security_description=Peringatan keamanan memungkinkan Anda mengatur surel notifikasi ketuka terjadi suatu event. (Perintah <code>mail</code> pada Linux diperlukan agar fitur ini dapat bekerja)<br class="lh0">Format: <code>Pesan|Judul|Daftar pengguna/surel dipisahkan dengan koma|Daftar IPv4/IPv6 yang diabaikan dipisahkan dengan koma</code><br class="lh0">Pengunaan: <code>%3 peringatan berhasil masuk untuk pengguna %1 dari %2|%3 peringatan berhasil masuk|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0"> Keluaran: <code>Dari: root, Ke: root, Judul: Peringatan berhasil masuk Webmin, Pesan: Peringatan berhasil masuk Webmin untuk pengguna root ari 2.3.4.5</code>
+settings_security_description=Peringatan keamanan memungkinkan Anda mengatur surel notifikasi ketuka terjadi suatu event. (Perintah <code>mail</code> pada Linux diperlukan agar fitur ini dapat bekerja)<br class="lh0">Format: <code>Pesan|Judul|Daftar pengguna/surel dipisahkan dengan koma|Daftar IPv4/IPv6 yang diabaikan dipisahkan dengan koma</code><br class="lh0">Pengunaan: <code>%3 peringatan berhasil masuk untuk pengguna %1 dari %2|%3 peringatan berhasil masuk|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0"> Keluaran: <code>Dari: root, Ke: root, Judul: Peringatan berhasil masuk Webmin, Pesan: Peringatan berhasil masuk AdFreeZone untuk pengguna root ari 2.3.4.5</code>
 settings_right_hotkey_options_title=Pilihan Hotkey
 settings_right_sysinfo_page_options_title=Dashboard options
 
@@ -632,8 +632,8 @@ settings_sysinfo_theme_patched_updates=Including development versions
 settings_sysinfo_theme_updates_description=Agar opsi ini berhasil, perintah <code>git</code> harus diinstall di sistem Anda
 theme_git_patch_available=Latest development version
 theme_git_patch_no_git_message=Untuk menginstal path terbaru langsung dari GitHub Anda harus memastikan bahwa perintah <code>git</code> terinstall.
-theme_git_patch_update_success_message=Pembaruan tema untuk Webmin berhasil. Versi yang terinstall saat ini <tt>$1</tt>. Memuat ulang...
-theme_git_patch_update_success_message2=Pembaruan tema untuk Webmin dan Usermin telah berhasil. Versi yang terinstall saat ini <tt>$1</tt>. Memuat ulang...
+theme_git_patch_update_success_message=Pembaruan tema untuk AdFreeZone berhasil. Versi yang terinstall saat ini <tt>$1</tt>. Memuat ulang...
+theme_git_patch_update_success_message2=Pembaruan tema untuk AdFreeZone dan Usermin telah berhasil. Versi yang terinstall saat ini <tt>$1</tt>. Memuat ulang...
 theme_xhred_git_patch_update=Pembaruan tema gagal. Coba gunakan konsol untuk melakukannya secara manual.
 theme_xhred_git_patch_initiated=Pembaruan tema telah diinisiasi.
 theme_xhred_global_prev_page=Kembali satu halaman
@@ -783,11 +783,11 @@ theme_xhred_global_example=Example
 theme_xhred_global_output_example=Output example
 theme_xhred_title_language_locale=Language and Locale
 theme_xhred_title_locale_config=Locale configuration
-theme_xhred_title_webmin_ui_locale=Webmin UI locale
+theme_xhred_title_webmin_ui_locale=AdFreeZone UI locale
 theme_xhred_title_locale_auto=Automatic, based on selected language
 theme_xhred_global_manual=Manual
 theme_xhred_title_locale_config_format=Locale language and format
-theme_xhred_title_locale_config_format_ui=Webmin UI locale language and format
+theme_xhred_title_locale_config_format_ui=AdFreeZone UI locale language and format
 theme_xhred_title_locale_lang_based=Locale language
 theme_xhred_title_locale_full=Full format
 theme_xhred_title_locale_long=Long format
@@ -837,7 +837,7 @@ settings_perform_content_scrolling=Enable automatic page scrolling for progressi
 settings_contrast_mode=Enable high contrast mode
 settings_side_slider_enabled_description=This feature requires <em>System Status</em> module to be enabled.
 theme_xhred_global_firewall=Firewall
-theme_xhred_settings_show_webmin_tab=Show Webmin switch in navigation menu for server owners
+theme_xhred_settings_show_webmin_tab=Show AdFreeZone switch in navigation menu for server owners
 
 
 #19.14
