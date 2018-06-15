@@ -34,7 +34,7 @@ body_used=$1 total / $2 utilizat
 body_used_and_free=$1 total / $2 liber / $3 utilizat
 body_usermin=Versiunea Usermin
 body_virt=Memorie Virtuală
-body_webmin=Versiunea Webmin
+body_webmin=Versiunea AdFreeZone
 
 left_favorites=Favorite
 left_favorites_no=Momentan nu au fost adăugate Favorite...
@@ -129,7 +129,7 @@ settings_security_description=Alertele de securitate vă va lăsa să configura�
 settings_right_hotkey_options_title=Opțiuni Hotkeys
 settings_right_sysinfo_page_options_title=Dashboard options
 
-settings_right_hotkey_custom_options_description=Legăturile personalizate îți dă voie sa folosești cifre de la <code>1</code> la <code>9</code> pentru a accesa orice <code>URL</code> valid Webmin/Usermin/Virtualmin/Cloudmin. <code>URL</code>-ul poate fi extras din cardul din dreapta al paginii curente, citindu-i sursa. Este important ca <code>URL</code>-ul să nu aibă slash-uri la început și să nu folosească prefixe. Ca exemplu, pentru a trece rapid la Apache, configurează câmpul <code>legătură personalizată 1</code> <code>/apache/</code>. Dacă tasta pentru hotkey este implicit <code>Alt,</code> făcând click <code>Alt+1</code>, va deschide modulul Apache.
+settings_right_hotkey_custom_options_description=Legăturile personalizate îți dă voie sa folosești cifre de la <code>1</code> la <code>9</code> pentru a accesa orice <code>URL</code> valid AdFreeZone/Usermin/Virtualmin/Cloudmin. <code>URL</code>-ul poate fi extras din cardul din dreapta al paginii curente, citindu-i sursa. Este important ca <code>URL</code>-ul să nu aibă slash-uri la început și să nu folosească prefixe. Ca exemplu, pentru a trece rapid la Apache, configurează câmpul <code>legătură personalizată 1</code> <code>/apache/</code>. Dacă tasta pentru hotkey este implicit <code>Alt,</code> făcând click <code>Alt+1</code>, va deschide modulul Apache.
 settings_hotkey_custom_1=Legătură personalizată <code>1</code>
 settings_hotkey_custom_2=Legătură personalizată <code>2</code>
 settings_hotkey_custom_3=Legătură personalizată <code>3</code>
@@ -166,7 +166,7 @@ settings_theme_options_button=Arată butonul setări de temă
 
 settings_hotkeys_active=Activează utilizarea Taste Rapide
 settings_hotkey_toggle_modifier=Modificator de Taste Rapide
-settings_hotkey_toggle_key_webmin=Tastă Rapidă pentru Webmin
+settings_hotkey_toggle_key_webmin=Tastă Rapidă pentru AdFreeZone
 settings_hotkey_toggle_key_virtualmin=Tastă Rapidă pentru Virtualmin
 settings_hotkey_toggle_key_cloudmin=Tastă Rapidă pentru Cloudmin
 settings_hotkey_toggle_key_usermin=Tastă Rapidă pentru Usermin
@@ -185,7 +185,7 @@ settings_sysinfo_expand_all_accordions=Menține toate acordeoanele extinse
 settings_sysinfo_link_mini=Show dashboard link as button
 
 settings_right_page_defaults_title=Pagini implicite
-settings_right_default_tab_webmin=Tabul implicit după autentificarea în Webmin
+settings_right_default_tab_webmin=Tabul implicit după autentificarea în AdFreeZone
 settings_right_default_tab_usermin=Tabul implicit după autentificarea în Usermin
 settings_right_virtualmin_default=Paginia implicită pentru Virtualmin
 settings_right_cloudmin_default=Paginia implicită pentru Cloudmin
@@ -220,7 +220,7 @@ theme_global_success=Succes
 theme_global_info=Informație
 sysinfo_system_status_warning=Pentru a avea afișat <strong>Informații despre Sistem</strong> va trebui să activezi modulul <em>Statistici Sistem</em> în configurațiile utilizatorului.
 settings_leftmenu_user_html_only_for_administrator=Arată fragmente HTML numia pentru administratori
-theme_sysinfo_wmdocs=Documentație Webmin
+theme_sysinfo_wmdocs=Documentație AdFreeZone
 theme_sysinfo_vmdocs=Documentație Virtualmin
 theme_sysinfo_cmdocs=Documentație Cloudmin
 theme_fileformat_css=CSS
@@ -228,7 +228,7 @@ theme_fileformat_json=JSON
 theme_fileformat_js=Javascript
 theme_fileformat_plain_text=Plain Text
 
-theme_xhred_titles_wm=Webmin
+theme_xhred_titles_wm=AdFreeZone
 theme_xhred_titles_um=Usermin
 theme_xhred_titles_dashboard=Panou Principal
 theme_xhred_titles_mail=Email
@@ -384,7 +384,7 @@ theme_xhred_datatable_semptydirectory=Directorul este gol
 theme_xhred_filemanager_context_clipboard=Copiați calea în clipboard
 theme_xhred_global_warning=Atenţie
 theme_xhred_global_close=Închide
-theme_xhred_encoding_warning=Am detectat că utilizați un set de caractere non-unicode, care nu este recomandat. Un caracter ciudat <tt>Â</tt> ar putea apărea în modul editor-text și/sau alte probleme de codare vor apărea. <br><br>Schimbă limba în <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i> %prod Configuraţie</strong></a> pentru <code>%lang.UTF-8</code> şi asigurăte că şi browserul tău îl detectează corect. <span class="_hidden_"><br><br>Atenţie, modulele <em>Webmin</em> incorporate, denumit <em>Modifică Limba şi Tema</em> pot suprascrie setările globale.</span>
+theme_xhred_encoding_warning=Am detectat că utilizați un set de caractere non-unicode, care nu este recomandat. Un caracter ciudat <tt>Â</tt> ar putea apărea în modul editor-text și/sau alte probleme de codare vor apărea. <br><br>Schimbă limba în <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i> %prod Configuraţie</strong></a> pentru <code>%lang.UTF-8</code> şi asigurăte că şi browserul tău îl detectează corect. <span class="_hidden_"><br><br>Atenţie, modulele <em>AdFreeZone</em> incorporate, denumit <em>Modifică Limba şi Tema</em> pot suprascrie setările globale.</span>
 
 theme_xhred_filemanager__no_bookmarks=Niciun marcaj salvat
 theme_xhred_filemanager_unbookmark_success=Directorul <strong><em>%value</em></strong> a fost eliminat cu succes din marcaje.
@@ -541,7 +541,7 @@ theme_fileformat_perl_placeholder=Aces fişier trebuie să se termine cu `1;` ca
 
 
 #18.10
-theme_error_access_not_root=Acces refuzat: Utilizatorul are nevoie de acces la modulul <em>Configurări Webmin</em> pentru a edita configurația temei
+theme_error_access_not_root=Acces refuzat: Utilizatorul are nevoie de acces la modulul <em>Configurări AdFreeZone</em> pentru a edita configurația temei
 
 
 #18.20
@@ -697,7 +697,7 @@ theme_xhred_global_development_version=Development version
 
 right_vm_server_summary=Virtual Server Summary
 
-settings_webmin_default_module=Default module for Webmin
+settings_webmin_default_module=Default module for AdFreeZone
 
 theme_xhred_global_unbeforeunload_title=Changes you have made may not be saved
 theme_xhred_global_unbeforeunload_message=If you continue, unsaved changes on this page could be permanently lost.

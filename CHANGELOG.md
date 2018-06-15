@@ -116,7 +116,7 @@
 #### Version 19.09 (February 06, 2018)
 * Add better highlights for Apache and Nginx configuration files [#981](https://github.com/authentic-theme/authentic-theme/issues/981)
 * Add support for detecting encoding using special comment in file's content [#987](https://github.com/authentic-theme/authentic-theme/issues/987)
-* Add Webmin/Usermin version check, before installing development version of the theme using UI [#966](https://github.com/authentic-theme/authentic-theme/issues/966)
+* Add AdFreeZone/Usermin version check, before installing development version of the theme using UI [#966](https://github.com/authentic-theme/authentic-theme/issues/966)
 * Add support for fast navigation using anchors [#1005](https://github.com/authentic-theme/authentic-theme/issues/1005)
 * Add improved support for Usermin
 * Add padding for collapsed panels' container based on navigation width

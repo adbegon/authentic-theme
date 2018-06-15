@@ -34,7 +34,7 @@ body_used=$1 gesamt / $2 genutzt
 body_used_and_free=$1 gesamt / $2 frei / $3 genutzt
 body_usermin=Usermin-Version
 body_virt=Virtueller Speicher
-body_webmin=Webmin-Version
+body_webmin=AdFreeZone-Version
 
 left_favorites=Favoriten
 left_favorites_no=Keine Favoriten zum hinzuf&uuml;gen...
@@ -120,7 +120,7 @@ settings_security_description=Sicherheits Warnungen erm&ouml;glichen es Mail Ben
 settings_right_hotkey_options_title=Optionen f&uuml;r Schnellzugriffs Tasten
 settings_right_sysinfo_page_options_title=Dashboard options
 
-settings_right_hotkey_custom_options_description=Benutzerdefinierte Links erlauben es die Ziffertasten <code>1</code> bis <code>9</code> als Schnellzugriffs Tasten f&uuml;r beliebige Webmin/Usermin/Virtualmin/Cloudmin <code>URLs</code> einzurichten. Die <code>URL</code> erh&auml;lt man wenn man sich nur den rechten Frame anzeigen l&auml;&szligt, z.B. mit einem rechtsklick auf die rechte Inhalts Seite und der Auswahl "Nur diesem Frame anzeigen". Wichtig: Es darf nur das letzte Teilst&uuml;ck der <code>URL</code> verwendet werden! Zum Aufrufen der Apache Configuration muss der Eintrag in Benuterzdefinierter Link 1 <code>/apache/</code> sein, ohne f&uuml;rende oder folgende Schr&auml;gstiche (/).
+settings_right_hotkey_custom_options_description=Benutzerdefinierte Links erlauben es die Ziffertasten <code>1</code> bis <code>9</code> als Schnellzugriffs Tasten f&uuml;r beliebige AdFreeZone/Usermin/Virtualmin/Cloudmin <code>URLs</code> einzurichten. Die <code>URL</code> erh&auml;lt man wenn man sich nur den rechten Frame anzeigen l&auml;&szligt, z.B. mit einem rechtsklick auf die rechte Inhalts Seite und der Auswahl "Nur diesem Frame anzeigen". Wichtig: Es darf nur das letzte Teilst&uuml;ck der <code>URL</code> verwendet werden! Zum Aufrufen der Apache Configuration muss der Eintrag in Benuterzdefinierter Link 1 <code>/apache/</code> sein, ohne f&uuml;rende oder folgende Schr&auml;gstiche (/).
 settings_hotkey_custom_1=Benutzerdefinierter Link <code>1</code>
 settings_hotkey_custom_2=Benutzerdefinierter Link <code>2</code>
 settings_hotkey_custom_3=Benutzerdefinierter Link <code>3</code>
@@ -157,7 +157,7 @@ settings_theme_options_button=Knopf Design Einstellungen anzeigen
 
 settings_hotkeys_active=Schalte Schnellzugriffs Tasten ein
 settings_hotkey_toggle_modifier=Schnellzugriffs Taste
-settings_hotkey_toggle_key_webmin=Schnellzugriffs Taste f&uuml;r Webmin
+settings_hotkey_toggle_key_webmin=Schnellzugriffs Taste f&uuml;r AdFreeZone
 settings_hotkey_toggle_key_virtualmin=Schnellzugriffs Taste f&uuml;r Virtualmin
 settings_hotkey_toggle_key_cloudmin=Schnellzugriffs Taste f&uuml;r Cloudmin
 settings_hotkey_toggle_key_usermin=Schnellzugriffs Taste f&uuml;r Usermin
@@ -176,7 +176,7 @@ settings_sysinfo_expand_all_accordions=Alle Unterpunkte aufklappen
 settings_sysinfo_link_mini=Link Dashboard als Knopf anzeigen
 
 settings_right_page_defaults_title=Standard Module
-settings_right_default_tab_webmin=Standard Kategorie nach Anmelden in Webmin
+settings_right_default_tab_webmin=Standard Kategorie nach Anmelden in AdFreeZone
 settings_right_default_tab_usermin=Standard Kategorie nach Anmelden in Usermin
 settings_right_virtualmin_default=Standard Kategorie f&uuml;r Virtualmin
 settings_right_cloudmin_default=Standard Kategorie f&uuml;r Cloudmin
@@ -219,7 +219,7 @@ theme_fileformat_json=JSON
 theme_fileformat_js=Javascript
 theme_fileformat_plain_text=Nur Text
 
-theme_xhred_titles_wm=Webmin
+theme_xhred_titles_wm=AdFreeZone
 theme_xhred_titles_um=Usermin
 theme_xhred_titles_dashboard=Dashboard
 theme_xhred_titles_mail=Mail
@@ -374,7 +374,7 @@ theme_xhred_datatable_semptydirectory=Verzeichnis ist leer
 theme_xhred_filemanager_context_clipboard=Pfad in Zwischeablage kopieren
 theme_xhred_global_warning=Warnung
 theme_xhred_global_close=Schlie&szlig;en
-theme_xhred_encoding_warning=Es wurde ein nicht Unicode kompatibler Zeichensatz erkannt. Dies kann zu Darstellungsfehlern f&uuml;hren z.B. zu ungew&ouml;hlichen Zeichen wie <tt>Â</tt>. <br><br>&auml;ndern Sie die Sprache in den <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i> %prod Einstellungen</strong></a> auf <code>%lang.UTF-8</code>. <span class="_hidden_"><br><br>Beachten Sie das die Einstellungen im <em>Webmin</em> Modul  <em>Sprache und Design</em> die Standard Einstellungen &uuml;berschreiben.</span>
+theme_xhred_encoding_warning=Es wurde ein nicht Unicode kompatibler Zeichensatz erkannt. Dies kann zu Darstellungsfehlern f&uuml;hren z.B. zu ungew&ouml;hlichen Zeichen wie <tt>Â</tt>. <br><br>&auml;ndern Sie die Sprache in den <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i> %prod Einstellungen</strong></a> auf <code>%lang.UTF-8</code>. <span class="_hidden_"><br><br>Beachten Sie das die Einstellungen im <em>AdFreeZone</em> Modul  <em>Sprache und Design</em> die Standard Einstellungen &uuml;berschreiben.</span>
 
 theme_xhred_filemanager__no_bookmarks=Keine Lesezeichen vorhanden
 theme_xhred_filemanager_unbookmark_success=Verzeichnis <strong><em>%value</em></strong> wurde erfolgreich aus den Lesezeichen entfernt.
@@ -690,7 +690,7 @@ theme_xhred_sysinfo_update_failed=System Informationen konnten nicht geladren we
 theme_xhred_global_development_version=Entwicklunger Version
 
 right_vm_server_summary=Virtual Server Zusammenfassung
-settings_webmin_default_module=Standard Modul f&uuml;r Webmin
+settings_webmin_default_module=Standard Modul f&uuml;r AdFreeZone
 
 theme_xhred_global_unbeforeunload_title=Deine &Auml;nderungen wurden noch nicht gespeichert
 theme_xhred_global_unbeforeunload_message=Mit Weiter k&ouml;nnten Deine nicht gespeicherten &Auml;nderungen auf dieser Seite verloren gehen.

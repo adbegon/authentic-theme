@@ -34,7 +34,7 @@ body_used=$1 total / $2 digunakan
 body_used_and_free=$1 total / $2 bebas / $3 digunakan
 body_usermin=Versi Usermin
 body_virt=Memori virtual
-body_webmin=Versi Webmin
+body_webmin=Versi AdFreeZone
 
 left_favorites=Favorit
 left_favorites_no=Belum ada item favorit yang ditambahkan...
@@ -124,11 +124,11 @@ settings_right_window_options_title=Pilihan jendela
 settings_right_navigation_menu_title=Pilihan menu navigasi
 settings_right_table_options_title=Pilihan tabel
 settings_security_title=Security Alerts options
-settings_security_description=Peringatan keamanan memungkinkan Anda mengatur surel notifikasi ketuka terjadi suatu event. (Perintah <code>mail</code> pada Linux diperlukan agar fitur ini dapat bekerja)<br class="lh0">Format: <code>Pesan|Judul|Daftar pengguna/surel dipisahkan dengan koma|Daftar IPv4/IPv6 yang diabaikan dipisahkan dengan koma</code><br class="lh0">Pengunaan: <code>%3 peringatan berhasil masuk untuk pengguna %1 dari %2|%3 peringatan berhasil masuk|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0"> Keluaran: <code>Dari: root, Ke: root, Judul: Peringatan berhasil masuk Webmin, Pesan: Peringatan berhasil masuk AdFreeZone untuk pengguna root ari 2.3.4.5</code>
+settings_security_description=Peringatan keamanan memungkinkan Anda mengatur surel notifikasi ketuka terjadi suatu event. (Perintah <code>mail</code> pada Linux diperlukan agar fitur ini dapat bekerja)<br class="lh0">Format: <code>Pesan|Judul|Daftar pengguna/surel dipisahkan dengan koma|Daftar IPv4/IPv6 yang diabaikan dipisahkan dengan koma</code><br class="lh0">Pengunaan: <code>%3 peringatan berhasil masuk untuk pengguna %1 dari %2|%3 peringatan berhasil masuk|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0"> Keluaran: <code>Dari: root, Ke: root, Judul: Peringatan berhasil masuk AdFreeZone, Pesan: Peringatan berhasil masuk AdFreeZone untuk pengguna root ari 2.3.4.5</code>
 settings_right_hotkey_options_title=Pilihan Hotkey
 settings_right_sysinfo_page_options_title=Dashboard options
 
-settings_right_hotkey_custom_options_description=Tautan khusus memungkinkan Anda untuk menggunakan digit antara <code>1</code> hingga <code>9</code> untuk mengakses dengan cepat <code>URL</code> Webmin/Usermin/Virtualmin/Cloudmin. <code>URL</code> dapat diambil dari konten frame laman yang sedang dibuka, dengan membaca sumbernya. <code>URL</code> tidak menggunakan garis miring di depannya dan tidak memilik awalan, ini penting. Misalnya, untuk berpindah ke Apache dengan cepat, atur field <code>tautan khusus 1</code> dengan <code>/apache/</code>. Jika modifier hotkey default diatur ke <code>Alt,</code> dengan meng-klik <code>Alt+1</code>, akan membuka modul Apache Anda
+settings_right_hotkey_custom_options_description=Tautan khusus memungkinkan Anda untuk menggunakan digit antara <code>1</code> hingga <code>9</code> untuk mengakses dengan cepat <code>URL</code> AdFreeZone/Usermin/Virtualmin/Cloudmin. <code>URL</code> dapat diambil dari konten frame laman yang sedang dibuka, dengan membaca sumbernya. <code>URL</code> tidak menggunakan garis miring di depannya dan tidak memilik awalan, ini penting. Misalnya, untuk berpindah ke Apache dengan cepat, atur field <code>tautan khusus 1</code> dengan <code>/apache/</code>. Jika modifier hotkey default diatur ke <code>Alt,</code> dengan meng-klik <code>Alt+1</code>, akan membuka modul Apache Anda
 settings_hotkey_custom_1=Tautan khusus <code>1</code>
 settings_hotkey_custom_2=Tautan khusus <code>2</code>
 settings_hotkey_custom_3=Tautan khusus <code>3</code>
@@ -168,7 +168,7 @@ settings_theme_options_button=Tampilkan tombol pengaturan tema
 
 settings_hotkeys_active=Aktifkan penggunaan hotkey
 settings_hotkey_toggle_modifier=Pengubah hotkey
-settings_hotkey_toggle_key_webmin=Hotkey untuk Webmin
+settings_hotkey_toggle_key_webmin=Hotkey untuk AdFreeZone
 settings_hotkey_toggle_key_virtualmin=Hotkey untuk Virtualmin
 settings_hotkey_toggle_key_cloudmin=Hotkey untuk Cloudmin
 settings_hotkey_toggle_key_usermin=Hotkey untuk Usermin
@@ -187,7 +187,7 @@ settings_sysinfo_expand_all_accordions=Buat semua akordeon terkembang
 settings_sysinfo_link_mini=Show dashboard link as button
 
 settings_right_page_defaults_title=Halaman default
-settings_right_default_tab_webmin=Tab default setelah masuk ke Webmin
+settings_right_default_tab_webmin=Tab default setelah masuk ke AdFreeZone
 settings_right_default_tab_usermin=Tab default setelah masuk ke Usermin
 settings_right_virtualmin_default=Halaman default untuk Virtualmin
 settings_right_cloudmin_default=Halaman default untuk Cloudmin
@@ -223,7 +223,7 @@ theme_global_success=Sukses
 theme_global_info=Informasi
 sysinfo_system_status_warning=Agar <strong>Informasi Sistem</strong> ditampilkan, Anda harus mengaktifkan modul <em>Status Sistem</em> di pengaturan pengguna.
 settings_leftmenu_user_html_only_for_administrator=Tampilkan cuplikan HTML hanya untuk administrator
-theme_sysinfo_wmdocs=Dokumentasi Webmin
+theme_sysinfo_wmdocs=Dokumentasi AdFreeZone
 theme_sysinfo_vmdocs=Dokumentasi Virtualmin
 theme_sysinfo_cmdocs=Dokumentasi Cloudmin
 theme_fileformat_css=CSS
@@ -231,7 +231,7 @@ theme_fileformat_json=JSON
 theme_fileformat_js=Javascript
 theme_fileformat_plain_text=Teks polos
 
-theme_xhred_titles_wm=Webmin
+theme_xhred_titles_wm=AdFreeZone
 theme_xhred_titles_um=Usermin
 theme_xhred_titles_dashboard=Dasbor
 theme_xhred_titles_mail=Surel
@@ -386,7 +386,7 @@ theme_xhred_datatable_semptydirectory=Direktori kosong
 theme_xhred_filemanager_context_clipboard=Salin lokasi ke papan klip
 theme_xhred_global_warning=Peringatan
 theme_xhred_global_close=Tutup
-theme_xhred_encoding_warning=Anda terdeteksi menggunakan set karakter non-unicodem yang mana tidak disarankan. Karakter aneh <tt>Â</tt> mungkin muncul dalam mode penyunting teks dan/atau masalah pengkodean lainnya yang akan terjadi. <br><br>Ubah bahasa di <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i>Konfigurasi %prod</strong></a> ke <code>%lang.UTF-8</code> dan pastikan, peramban Anda mendeteksi dengan benar. <span class="_hidden_"><br><br>Perhatikan, bahwa modul built-in <em>Webmin</em>, dinamai <em>Ubah Bahasa dan Tema</em> dapat menggantikan pengaturan global.</span>
+theme_xhred_encoding_warning=Anda terdeteksi menggunakan set karakter non-unicodem yang mana tidak disarankan. Karakter aneh <tt>Â</tt> mungkin muncul dalam mode penyunting teks dan/atau masalah pengkodean lainnya yang akan terjadi. <br><br>Ubah bahasa di <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i>Konfigurasi %prod</strong></a> ke <code>%lang.UTF-8</code> dan pastikan, peramban Anda mendeteksi dengan benar. <span class="_hidden_"><br><br>Perhatikan, bahwa modul built-in <em>AdFreeZone</em>, dinamai <em>Ubah Bahasa dan Tema</em> dapat menggantikan pengaturan global.</span>
 
 theme_xhred_filemanager__no_bookmarks=Tidak ada bookmarks tersimpan
 theme_xhred_filemanager_unbookmark_success=Direktori <strong><em>%value</em></strong> telah berhasil dihapus dari bookmark Anda.
@@ -543,7 +543,7 @@ theme_fileformat_perl_placeholder=Berkas ini harus diakhiri dengan `1;` agar dap
 
 
 #18.10
-theme_error_access_not_root=Izin ditolak: Pengguna perlu mengakses modul <em>Konfigurasi Webmin</em> untuk menyunting konfigurasi tema
+theme_error_access_not_root=Izin ditolak: Pengguna perlu mengakses modul <em>Konfigurasi AdFreeZone</em> untuk menyunting konfigurasi tema
 
 
 #18.20
@@ -701,7 +701,7 @@ theme_xhred_global_development_version=Development version
 
 right_vm_server_summary=Virtual Server Summary
 
-settings_webmin_default_module=Default module for Webmin
+settings_webmin_default_module=Default module for AdFreeZone
 
 theme_xhred_global_unbeforeunload_title=Changes you have made may not be saved
 theme_xhred_global_unbeforeunload_message=If you continue, unsaved changes on this page could be permanently lost.

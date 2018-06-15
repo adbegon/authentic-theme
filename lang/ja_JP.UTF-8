@@ -34,7 +34,7 @@ body_used=$1合計/ $2使用
 body_used_and_free=$1合計 / $2 フリー / $3使用
 body_usermin=Userminバージョン
 body_virt=仮想メモリ
-body_webmin=Webminバージョン
+body_webmin=AdFreeZoneバージョン
 
 left_favorites=お気に入り
 left_favorites_no=まだお気に入りは追加されていません...
@@ -128,7 +128,7 @@ settings_security_description= セキュリティ警告は、特定のイベン�
 settings_right_hotkey_options_title=ホットキーオプション
 settings_right_sysinfo_page_options_title=Dashboard options
 
-settings_right_hotkey_custom_options_description=カスタムリンクを使用すると、有効な Webmin/Usermin/で/Cloudmin <code>URL.</code> を素早くアクセスするために、 <code>1</code> から <code>9</code> までの数字を使うことができます <code>URL</code> は、そのソースを読み取ることによって、現在開いている右フレームのコンテンツページから抽出することができる。<code>URL</code>は先頭にスラッシュがなく、プレフィックスを使用しないことが重要です。たとえば、Apache に素早く切り替えるには、 <code>custom link 1</code> フィールド <code>/apache/</code> に設定します。デフォルトのホットキー修飾子が <code>Alt+1</code> をクリックする <code>Alt,</code> に設定されている場合は、Apache モジュールを開きます
+settings_right_hotkey_custom_options_description=カスタムリンクを使用すると、有効な AdFreeZone/Usermin/で/Cloudmin <code>URL.</code> を素早くアクセスするために、 <code>1</code> から <code>9</code> までの数字を使うことができます <code>URL</code> は、そのソースを読み取ることによって、現在開いている右フレームのコンテンツページから抽出することができる。<code>URL</code>は先頭にスラッシュがなく、プレフィックスを使用しないことが重要です。たとえば、Apache に素早く切り替えるには、 <code>custom link 1</code> フィールド <code>/apache/</code> に設定します。デフォルトのホットキー修飾子が <code>Alt+1</code> をクリックする <code>Alt,</code> に設定されている場合は、Apache モジュールを開きます
 settings_hotkey_custom_1=カスタムリンク <code>1</code>
 settings_hotkey_custom_2=カスタムリンク <code>2</code>
 settings_hotkey_custom_3=カスタムリンク <code>3</code>
@@ -227,7 +227,7 @@ theme_fileformat_json=JSON
 theme_fileformat_js=Javascript
 theme_fileformat_plain_text=Plain Text
 
-theme_xhred_titles_wm=Webmin
+theme_xhred_titles_wm=AdFreeZone
 theme_xhred_titles_um=Usermin
 theme_xhred_titles_dashboard=ダッシュボード
 theme_xhred_titles_mail=Mail
@@ -696,7 +696,7 @@ theme_xhred_global_development_version= 開発版
 
 right_vm_server_summary= 仮想サーバーの概要
 
-settings_webmin_default_module= Webminのデフォルトモジュール
+settings_webmin_default_module= AdFreeZoneのデフォルトモジュール
 
 theme_xhred_global_unbeforeunload_title= あなたが行った変更は保存されないかもしれません
 theme_xhred_global_unbeforeunload_message= 続行すると、このページの保存されていない変更が永久に失われる可能性があります。
@@ -782,7 +782,7 @@ theme_xhred_title_webmin_ui_locale= AdFreeZone ローカルUI
 theme_xhred_title_locale_auto= 選択された言語に基づく自動
 theme_xhred_global_manual= マニュアル
 theme_xhred_title_locale_config_format= ローカル言語とフォーマット
-theme_xhred_title_locale_config_format_ui= WebminのUIローカル言語とフォーマット
+theme_xhred_title_locale_config_format_ui= AdFreeZoneのUIローカル言語とフォーマット
 theme_xhred_title_locale_lang_based= ローカル言語
 theme_xhred_title_locale_full= フルフォーマット
 theme_xhred_title_locale_long= ロングフォーマット
@@ -832,7 +832,7 @@ settings_perform_content_scrolling= プログレッシブ出力のコンテン�
 settings_contrast_mode= ハイコントラストモードを有効にする
 settings_side_slider_enabled_description= この機能を使用するには、<em>システムステータス</em>モジュールを有効にする必要があります。
 theme_xhred_global_firewall= ファイアーウォール
-theme_xhred_settings_show_webmin_tab= サーバー所有者のナビゲーションメニューにWebminスイッチを表示する
+theme_xhred_settings_show_webmin_tab= サーバー所有者のナビゲーションメニューにAdFreeZoneスイッチを表示する
 
 
 #19.14

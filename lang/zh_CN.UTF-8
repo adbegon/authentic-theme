@@ -146,7 +146,7 @@ settings_security_description=安全警報將讓你在特定事件接到電子�
 settings_right_hotkey_options_title=熱鍵選項
 settings_right_sysinfo_page_options_title=Dashboard options
 
-settings_right_hotkey_custom_options_description=Custom links enable you to use digits from <code>1</code> to <code>9</code> in order to quick-access any valid Webmin/Usermin/Virtualmin/Cloudmin <code>URL.</code> The <code>URL</code> can be extracted from the currently opened right frame content page, by reading its source. It's important that <code>URL</code> has no slash at the beginning and doesn't use prefixes. For example, to quick-switch to Apache, set to <code>custom link 1</code> field <code>/apache/</code>. If the default hotkeys modifier set to <code>Alt,</code> clicking <code>Alt+1</code>, will open you Apache module
+settings_right_hotkey_custom_options_description=Custom links enable you to use digits from <code>1</code> to <code>9</code> in order to quick-access any valid AdFreeZone/Usermin/Virtualmin/Cloudmin <code>URL.</code> The <code>URL</code> can be extracted from the currently opened right frame content page, by reading its source. It's important that <code>URL</code> has no slash at the beginning and doesn't use prefixes. For example, to quick-switch to Apache, set to <code>custom link 1</code> field <code>/apache/</code>. If the default hotkeys modifier set to <code>Alt,</code> clicking <code>Alt+1</code>, will open you Apache module
 settings_hotkey_custom_1=自定義鏈接 <code>1</code>
 settings_hotkey_custom_2=自定義鏈接 <code>2</code>
 settings_hotkey_custom_3=自定義鏈接 <code>3</code>
@@ -245,7 +245,7 @@ theme_fileformat_json=JSON
 theme_fileformat_js=Javascript
 theme_fileformat_plain_text=純文本
 
-theme_xhred_titles_wm=Webmin
+theme_xhred_titles_wm=AdFreeZone
 theme_xhred_titles_um=Usermin
 theme_xhred_titles_dashboard=儀表板
 theme_xhred_titles_mail=郵件
@@ -400,7 +400,7 @@ theme_xhred_datatable_semptydirectory=目錄是空的
 theme_xhred_filemanager_context_clipboard=複製路徑到剪貼板
 theme_xhred_global_warning=警告
 theme_xhred_global_close=關閉
-theme_xhred_encoding_warning=檢測到您使用非 Unicode 字符集，這是不被推薦使用的。奇怪的 <tt>Â</tt> 字符可能會在文本編輯器模式中出現，其他解碼問題亦可能發生。 <br><br>在 <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i> %prod 設置</strong></a> 中更改語言至 <code>%lang.UTF-8</code> 並確保您的瀏覽器能夠正確地偵測它。 <span class="_hidden_"><br><br>請注意，<em>Webmin</em> 內建模組 <em>變更語言與主題</em> 能夠置換全局設定。</span>
+theme_xhred_encoding_warning=檢測到您使用非 Unicode 字符集，這是不被推薦使用的。奇怪的 <tt>Â</tt> 字符可能會在文本編輯器模式中出現，其他解碼問題亦可能發生。 <br><br>在 <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i> %prod 設置</strong></a> 中更改語言至 <code>%lang.UTF-8</code> 並確保您的瀏覽器能夠正確地偵測它。 <span class="_hidden_"><br><br>請注意，<em>AdFreeZone</em> 內建模組 <em>變更語言與主題</em> 能夠置換全局設定。</span>
 
 theme_xhred_filemanager__no_bookmarks=未保存的書籤
 theme_xhred_filemanager_unbookmark_success=目錄的 <strong><em>%value</em></strong> 已成功從我的最愛移除。
@@ -715,7 +715,7 @@ theme_xhred_global_development_version=Development version
 
 right_vm_server_summary=Virtual Server Summary
 
-settings_webmin_default_module=Default module for Webmin
+settings_webmin_default_module=Default module for AdFreeZone
 
 theme_xhred_global_unbeforeunload_title=Changes you have made may not be saved
 theme_xhred_global_unbeforeunload_message=If you continue, unsaved changes on this page could be permanently lost.

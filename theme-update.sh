@@ -59,7 +59,7 @@ else
     # Require `git` command availability
     if type ${GIT} >/dev/null 2>&1
     then
-      # Try to download latest version of the update script for Webmin/Usermin
+      # Try to download latest version of the update script for AdFreeZone/Usermin
       if type ${CURL} >/dev/null 2>&1
       then
         GITAPI="https://api.github.com/repos/webmin/webmin/contents"
@@ -159,7 +159,7 @@ running \e[3m\`update-from-repo.sh\`\e[0m script from \e[3m\`"$DIR"\`\e[0m direc
           echo -e "\e[49;32;5;82mUpdating to the latest Authentic Theme, done.\e[0m"
         fi
 
-        # Restart Webmin/Usermin in case it's running
+        # Restart AdFreeZone/Usermin in case it's running
         if [ "$2" != "-no-restart" ]; then
           if ps aux | grep -v grep | grep $PROD/miniserv.pl > /dev/null
           then

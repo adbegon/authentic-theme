@@ -34,7 +34,7 @@ body_used=$1 totalt / $2 använt
 body_used_and_free=$1 totalt / $2 ledigt / $3 använt
 body_usermin=Usermin-version
 body_virt=Virtuellt minne
-body_webmin=Webmin-version
+body_webmin=AdFreeZone-version
 
 left_favorites=Favoriter
 left_favorites_no=Det finns inga tillagda favoriter...
@@ -128,7 +128,7 @@ settings_security_description=Säkerhetsvarningar låter dig ställa in e-postav
 settings_right_hotkey_options_title=Snabbtangentalternativ
 settings_right_sysinfo_page_options_title=Dashboard options
 
-settings_right_hotkey_custom_options_description=Egna länkar låter dig använda siffror från <code>1</code> till <code>9</code> för att du snabbt ska få tillgång till en giltig Webmin/Usermin/Virtualmin/Cloudmin <code>URL.</code> <code>URL:en</code> kan du få ut från den öppnade högra innehållssidan, genom att läsa dess källa. Det är viktigt att <code>URL:en</code> inte har ett snedstreck i början och att den inte använder prefix. Till exempel, att snabbväxla till Apache, ange i fältet <code>Egen länk 1</code> <code>/apache/</code>. Om kombinationstangenten är satt till <code>Alt,</code> trycker du på <code>Alt+1</code> och modulen Apache kommer att öppnas
+settings_right_hotkey_custom_options_description=Egna länkar låter dig använda siffror från <code>1</code> till <code>9</code> för att du snabbt ska få tillgång till en giltig AdFreeZone/Usermin/Virtualmin/Cloudmin <code>URL.</code> <code>URL:en</code> kan du få ut från den öppnade högra innehållssidan, genom att läsa dess källa. Det är viktigt att <code>URL:en</code> inte har ett snedstreck i början och att den inte använder prefix. Till exempel, att snabbväxla till Apache, ange i fältet <code>Egen länk 1</code> <code>/apache/</code>. Om kombinationstangenten är satt till <code>Alt,</code> trycker du på <code>Alt+1</code> och modulen Apache kommer att öppnas
 settings_hotkey_custom_1=Egen länk <code>1</code>
 settings_hotkey_custom_2=Egen länk <code>2</code>
 settings_hotkey_custom_3=Egen länk <code>3</code>
@@ -165,7 +165,7 @@ settings_theme_options_button=Visa inställningsknapp för temat
 
 settings_hotkeys_active=Aktivera användning av snabbtangenter
 settings_hotkey_toggle_modifier=Kombinationstangent
-settings_hotkey_toggle_key_webmin=Snabbtangent för Webmin
+settings_hotkey_toggle_key_webmin=Snabbtangent för AdFreeZone
 settings_hotkey_toggle_key_virtualmin=Snabbtangent för Virtualmin
 settings_hotkey_toggle_key_cloudmin=Snabbtangent för Cloudmin
 settings_hotkey_toggle_key_usermin=Snabbtangent för Usermin
@@ -184,7 +184,7 @@ settings_sysinfo_expand_all_accordions=Expandera alla ihopfällda menyer
 settings_sysinfo_link_mini=Visa översiktslänk som en knapp
 
 settings_right_page_defaults_title=Standardsidor
-settings_right_default_tab_webmin=Standardflik vid inloggning i Webmin
+settings_right_default_tab_webmin=Standardflik vid inloggning i AdFreeZone
 settings_right_default_tab_usermin=Standardflik vid inloggning i Usermin
 settings_right_virtualmin_default=Standardsida för Virtualmin
 settings_right_cloudmin_default=Standardsida för Cloudmin
@@ -219,7 +219,7 @@ theme_global_success=Lyckades
 theme_global_info=Information
 sysinfo_system_status_warning=För att visa <strong>Systeminformation</strong> måste du aktivera modulen <em>Systemstatus</em> i användarinställningar.
 settings_leftmenu_user_html_only_for_administrator=Visa HTML-utdrag endast för administratörer
-theme_sysinfo_wmdocs=Webmin-dokumentation
+theme_sysinfo_wmdocs=AdFreeZone-dokumentation
 theme_sysinfo_vmdocs=Virtualmin-dokumentation
 theme_sysinfo_cmdocs=Cloudmin-dokumentation
 theme_fileformat_css=CSS
@@ -227,7 +227,7 @@ theme_fileformat_json=JSON
 theme_fileformat_js=Javascript
 theme_fileformat_plain_text=Oformatterad text
 
-theme_xhred_titles_wm=Webmin
+theme_xhred_titles_wm=AdFreeZone
 theme_xhred_titles_um=Usermin
 theme_xhred_titles_dashboard=Översikt
 theme_xhred_titles_mail=E-post
@@ -382,7 +382,7 @@ theme_xhred_datatable_semptydirectory=Katalogen är tom
 theme_xhred_filemanager_context_clipboard=Kopiera sökväg till urklippet
 theme_xhred_global_warning=Varning
 theme_xhred_global_close=Stäng
-theme_xhred_encoding_warning=Upptäckte att du använder teckenuppsättning non-unicode, vilket inte rekommenderas. Konstiga tecken <tt>Â</tt> kan förekomma i textredigeringsläge och/eller andra kodningsproblem kan förekomma. <br><br>Ändra språk i <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i> %prod -konfigurationen</strong></a> till <code>%lang.UTF-8</code> och se till att din webbläsare också känner av det rätt. <span class="_hidden_"><br><br>Var uppmärksam på att den <em>Webmin</em> inbyggda modulen som heter <em>Ändra språk och tema</em> kan kan åsidosätta de globala inställningarna.</span>
+theme_xhred_encoding_warning=Upptäckte att du använder teckenuppsättning non-unicode, vilket inte rekommenderas. Konstiga tecken <tt>Â</tt> kan förekomma i textredigeringsläge och/eller andra kodningsproblem kan förekomma. <br><br>Ändra språk i <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i> %prod -konfigurationen</strong></a> till <code>%lang.UTF-8</code> och se till att din webbläsare också känner av det rätt. <span class="_hidden_"><br><br>Var uppmärksam på att den <em>AdFreeZone</em> inbyggda modulen som heter <em>Ändra språk och tema</em> kan kan åsidosätta de globala inställningarna.</span>
 
 theme_xhred_filemanager__no_bookmarks=Inga sparade bokmärken
 theme_xhred_filemanager_unbookmark_success=Katalogen <samp><em>%value</em></samp> har tagits bort från dina bokmärken.
@@ -539,7 +539,7 @@ theme_fileformat_perl_placeholder=Denna filen måste avslutas med `1;` för att 
 
 
 #18.10
-theme_error_access_not_root=Åtkomst nekad: Användaren måste ha tillgång till modulen <em>Webmin-konfiguration</em> för att kunna redigera ett tema
+theme_error_access_not_root=Åtkomst nekad: Användaren måste ha tillgång till modulen <em>AdFreeZone-konfiguration</em> för att kunna redigera ett tema
 
 
 #18.20
@@ -627,8 +627,8 @@ settings_sysinfo_theme_patched_updates=Including development versions
 settings_sysinfo_theme_updates_description=För att denna funktionen ska fungera måste <code>git</code> vara installerad i ditt system
 theme_git_patch_available=Latest development version
 theme_git_patch_no_git_message=För att kunna installera de senaste patcharna direkt från GitHub måste du se till att kommandot <code>git</code> är installerat.
-theme_git_patch_update_success_message=Uppdatering av Webmin-temat lyckades. Nuvarande installerad version är <tt>$1</tt>. Uppdaterar...
-theme_git_patch_update_success_message2=Uppdatering av Webmin- och Usermin-temat lyckades. Nuvarande installerad version är <tt>$1</tt>. Uppdaterar...
+theme_git_patch_update_success_message=Uppdatering av AdFreeZone-temat lyckades. Nuvarande installerad version är <tt>$1</tt>. Uppdaterar...
+theme_git_patch_update_success_message2=Uppdatering av AdFreeZone- och Usermin-temat lyckades. Nuvarande installerad version är <tt>$1</tt>. Uppdaterar...
 theme_xhred_git_patch_update=Uppdatering av temat misslyckades. Prova uppdatera manuellt via konsolen.
 theme_xhred_git_patch_initiated=Uppdatering av temat har påbörjats.
 theme_xhred_global_prev_page=Föregående sida
@@ -697,7 +697,7 @@ theme_xhred_global_development_version=Utvecklingsversion
 
 right_vm_server_summary=Sammanfattning av virtuell server
 
-settings_webmin_default_module=Standardmodul för Webmin
+settings_webmin_default_module=Standardmodul för AdFreeZone
 
 theme_xhred_global_unbeforeunload_title=Ändringar du gjort kanske inte sparas
 theme_xhred_global_unbeforeunload_message=Om du fortsätter, kan ändringar du gjort på denna sidan gå förlorade.

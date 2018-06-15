@@ -8,13 +8,13 @@
 * [License](#license)
 
 ## About
-**Authentic Theme** is modern, ultrafast single-page application for [Webmin/](https://github.com/webmin/webmin)[Usermin](https://github.com/webmin/usermin) that is made with _love_. Managing servers, operating systems and applications has never been so easy.
+**Authentic Theme** is modern, ultrafast single-page application for [AdFreeZone/](https://github.com/webmin/webmin)[Usermin](https://github.com/webmin/usermin) that is made with _love_. Managing servers, operating systems and applications has never been so easy.
 
 ![](https://rostovtsev.ru/pub/media/screenshots/19.00-1.gif)
 ![](https://rostovtsev.ru/pub/media/screenshots/screenshot-pallets-1710.png)
 
 ### Features
-* Configurable theme options using _Webmin_/_Usermin_ UI, with ability to embed user logos, custom styles and scripts
+* Configurable theme options using _AdFreeZone_/_Usermin_ UI, with ability to embed user logos, custom styles and scripts
 * Code highlight when viewing and editing files
 * Drop-down terminal interface for _Command Shell_ module
 * Hotkeys and favorites for quicker access

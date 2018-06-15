@@ -34,7 +34,7 @@ body_used=$ 1 total / $ 2 përdorur
 body_used_and_free=$ 1 gjithsej / $ 2 falas / $ 3 të përdorura
 body_usermin=Versioni i Usemin
 body_virt=Memorie virtuale
-body_webmin=Versioni i Webmin
+body_webmin=Versioni i AdFreeZone
 
 left_favorites=Favoritet
 left_favorites_no=Nuk ishte shtuar asnjë shënim ...
@@ -168,7 +168,7 @@ settings_theme_options_button=Trego butonin e cilësimeve të temës
 
 settings_hotkeys_active=Aktivizo përdorimin e hotkeys
 settings_hotkey_toggle_modifier=Modifikues i hotkeys
-settings_hotkey_toggle_key_webmin=Hotkey për Webmin
+settings_hotkey_toggle_key_webmin=Hotkey për AdFreeZone
 settings_hotkey_toggle_key_virtualmin=Hotkey për Virtualmin
 settings_hotkey_toggle_key_cloudmin=Hotkey për Cloudmin
 settings_hotkey_toggle_key_usermin=Hotkey për Usermin
@@ -188,7 +188,7 @@ settings_sysinfo_link_mini=Show dashboard link as button
 settings_leftmenu_singlelink_icons=Shfaq ikonat për lidhje të vetme në menunë e navigimit
 
 settings_right_page_defaults_title=Faqet e paracaktuar
-settings_right_default_tab_webmin=Default skedë pas futjes në Webmin
+settings_right_default_tab_webmin=Default skedë pas futjes në AdFreeZone
 settings_right_default_tab_usermin=Skeda e parazgjedhur pas hyrjes në Usermin
 settings_right_virtualmin_default=Faqja Default për Virtualmin
 settings_right_cloudmin_default=Faqja e paracaktuar për Cloudmin
@@ -228,7 +228,7 @@ theme_global_info=Informacion
 sysinfo_system_status_warning=Në mënyrë që të shfaqet <strong> Informacioni i Sistemit </ strong>, do të duhet të aktivizoni modulin <em> Statusin e Sistemit </ em> në cilësimet e përdoruesit.
 settings_leftmenu_section_hide_vm_and_cm_links=Fshih lidhjet e moduleve të mbështetura nga menuja e navigimit
 settings_leftmenu_user_html_only_for_administrator=Shfaq snippet e HTML vetëm për administratorët
-theme_sysinfo_wmdocs=Dokumentacioni i Webmin
+theme_sysinfo_wmdocs=Dokumentacioni i AdFreeZone
 theme_sysinfo_vmdocs=Dokumentacioni Virtualmin
 theme_sysinfo_cmdocs=Dokumentacioni i Cloudmin
 theme_fileformat_css=CSS
@@ -236,7 +236,7 @@ theme_fileformat_json=JSON
 theme_fileformat_js=Javascript
 theme_fileformat_plain_text=Tekst i thjeshtë
 
-theme_xhred_titles_wm=Webmin
+theme_xhred_titles_wm=AdFreeZone
 theme_xhred_titles_um=Usermin
 theme_xhred_titles_dashboard=Paneli
 theme_xhred_titles_mail=Mail
@@ -295,7 +295,7 @@ theme_xhred_notifications_firewall_danger_message=Duket se <strong> Siguria e Se
 theme_xhred_notifications_firewall_warning=Paralajmërimi i Firewall
 
 #17.50
-settings_force_default_tab=Fillo skedën e paracaktuar për Webmin
+settings_force_default_tab=Fillo skedën e paracaktuar për AdFreeZone
 settings_force_default_tab_description=Kjo veçori do të detyrojë edhe kartën e parazgjedhur në rimbushjen e dritares gjithashtu.Kujdes!Nuk do të jetë e mundur të zgjedhësh për skedën e dëshiruar duke përdorur URL-në, pasi çdo kërkesë lokacioni do të injorohet.
 
 settings_grayscale_level_navigation=Filtri me ngjyrë gri
@@ -710,7 +710,7 @@ theme_xhred_global_development_version=Versioni i zhvillimit
 
 right_vm_server_summary=Përmbledhje e Serverit Virtual
 
-settings_webmin_default_module=Moduli i paracaktuar për Webmin
+settings_webmin_default_module=Moduli i paracaktuar për AdFreeZone
 
 theme_xhred_global_unbeforeunload_title=Ndryshimet që keni bërë mund të mos ruhen
 theme_xhred_global_unbeforeunload_message=Nëse vazhdoni, ndryshimet e pashpenzuara në këtë faqe mund të humbasin përgjithmonë.
@@ -792,7 +792,7 @@ theme_xhred_global_example = Shembull
 theme_xhred_global_output_example = Shembull i daljes
 theme_xhred_title_language_locale = Gjuha dhe Lokale
 theme_xhred_title_locale_config = Konfigurimi lokal
-theme_xhred_title_webmin_ui_locale = Ueb lokal i Webmin
+theme_xhred_title_webmin_ui_locale = Ueb lokal i AdFreeZone
 theme_xhred_title_locale_auto = Automatik, bazuar në gjuhën e përzgjedhur
 theme_xhred_global_manual = manuale
 theme_xhred_title_locale_config_format = Gjuha lokale dhe formati

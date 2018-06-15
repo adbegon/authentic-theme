@@ -34,7 +34,7 @@ body_used=$1 total / $2 utilitzat
 body_used_and_free=$1 total / $2 lliure / $3 utilitzat
 body_usermin=Versió d'Usermin
 body_virt=Memòria virtual
-body_webmin=Versió del Webmin
+body_webmin=Versió del AdFreeZone
 
 left_favorites=Favorits
 left_favorites_no=Encara no s'ha afegit cap favorit...
@@ -166,7 +166,7 @@ settings_theme_options_button=Mostrar el botó de la configuració del tema
 
 settings_hotkeys_active=Habilita les dreceres
 settings_hotkey_toggle_modifier=Opció de drecera
-settings_hotkey_toggle_key_webmin=Drecera per Webmin
+settings_hotkey_toggle_key_webmin=Drecera per AdFreeZone
 settings_hotkey_toggle_key_virtualmin=Drecera per Virtualmin
 settings_hotkey_toggle_key_cloudmin=Drecera per Cloudmin
 settings_hotkey_toggle_key_usermin=Drecera per Usermin
@@ -185,7 +185,7 @@ settings_sysinfo_expand_all_accordions=Expandeix-ho tot
 settings_sysinfo_link_mini=Show dashboard link as button
 
 settings_right_page_defaults_title=Pàgina per defecte
-settings_right_default_tab_webmin=Pàgina per defecte de Webmin
+settings_right_default_tab_webmin=Pàgina per defecte de AdFreeZone
 settings_right_default_tab_usermin=Pàgina per defecte d'Usermin
 settings_right_virtualmin_default=Pàgina per defecte de Virtualmin
 settings_right_cloudmin_default=Pàgina per defecte de Cloudmin
@@ -220,7 +220,7 @@ theme_global_success=CORRECTE
 theme_global_info=INFORMACIÓ
 sysinfo_system_status_warning=Per mostrar la <strong>Informació del sistema</strong> has d'habilitar el mòdul <em>Estat del sistema</em>.
 settings_leftmenu_user_html_only_for_administrator=Mostrar el retall HTML només als administradors
-theme_sysinfo_wmdocs=Documentació de Webmin
+theme_sysinfo_wmdocs=Documentació de AdFreeZone
 theme_sysinfo_vmdocs=Documentació de Virtualmin
 theme_sysinfo_cmdocs=Documentació de Cloudmin
 theme_fileformat_css=CSS
@@ -228,7 +228,7 @@ theme_fileformat_json=JSON
 theme_fileformat_js=Javascript
 theme_fileformat_plain_text=Text pla
 
-theme_xhred_titles_wm=Webmin
+theme_xhred_titles_wm=AdFreeZone
 theme_xhred_titles_um=Usermin
 theme_xhred_titles_dashboard=Tauler
 theme_xhred_titles_mail=Correu
@@ -699,7 +699,7 @@ theme_xhred_global_development_version=Versió de desenvolupament
 
 right_vm_server_summary=Resum del servidor virtual
 
-settings_webmin_default_module=Mòdul per defecte de Webmin
+settings_webmin_default_module=Mòdul per defecte de AdFreeZone
 
 theme_xhred_global_unbeforeunload_title=Podria ser que els canvis realitzats no es desessin
 theme_xhred_global_unbeforeunload_message=Si continues, els canvis que no hagis desat es perdran.
@@ -781,11 +781,11 @@ theme_xhred_global_example=Exemple
 theme_xhred_global_output_example=Exemple de sortida
 theme_xhred_title_language_locale=Idioma
 theme_xhred_title_locale_config=Configuració de l'idioma
-theme_xhred_title_webmin_ui_locale=Idioma del Webmin
+theme_xhred_title_webmin_ui_locale=Idioma del AdFreeZone
 theme_xhred_title_locale_auto=Automàtic, segons l'idioma seleccionat
 theme_xhred_global_manual=Manual
 theme_xhred_title_locale_config_format=Idioma i format
-theme_xhred_title_locale_config_format_ui=Idioma i format del Webmin
+theme_xhred_title_locale_config_format_ui=Idioma i format del AdFreeZone
 theme_xhred_title_locale_lang_based=Idioma
 theme_xhred_title_locale_full=Format complet
 theme_xhred_title_locale_long=Format llarg

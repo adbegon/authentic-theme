@@ -131,7 +131,7 @@ settings_hotkey_toggle_key_night_mode=Hurtigtast for veksling mellom mørk og ly
 settings_hotkey_toggle_key_usermin=Hurtigtast for Usermin
 settings_hotkey_toggle_key_virtualmin=Hurtigtast for Virtualmin
 settings_hotkey_toggle_key_webmail=Hurtigtast for E-post
-settings_hotkey_toggle_key_webmin=Hurtigtast for Webmin
+settings_hotkey_toggle_key_webmin=Hurtigtast for AdFreeZone
 settings_hotkey_toggle_modifier=Hotkeys modifier
 settings_hotkey_toggle_slider=Hurtigtast for Notification Slider
 settings_hotkeys_active=Aktiver bruk av hurtigtaster
@@ -159,13 +159,13 @@ settings_right_clear_local_cache=Nullstill cache
 settings_right_cloudmin_default=Standard side for Cloudmin
 settings_right_current_theme=Gjeldende tema
 settings_right_default_tab_usermin=Standard fane etter innlogging på Usermin
-settings_right_default_tab_webmin=Standard fane etter innlogging på Webmin
+settings_right_default_tab_webmin=Standard fane etter innlogging på AdFreeZone
 settings_right_extensions_title=Omfattende temadesign gjør at du enkelt kan manipulere spesifikke deler av grensesnittet.
 settings_right_file_edit=Rediger utvidelsesfil:
 settings_right_grayscaled_table_icons=Gråskaler tabellikoner og sett farge kun på fokus ikon
 settings_right_hide_table_icons=Skjul tabellikoner for høyre ramme
 settings_right_hide_table_icons_description=Fjerner ikoner helt fra tabeller på innholdssiden og viser vanlige lenker med høyre dobbelthake
-settings_right_hotkey_custom_options_description=Tilpassede koblinger gjør at du kan bruke tallene fra <code>1</code> til <code>9</code> for rask tilgang til en hvilken som helst gyldig Webmin/Usermin/Virtualmin/Cloudmin <code>URL.</Code> <code>URL</code>en kan hentes ut fra den gjeldende innholdssiden i høyre ramme ved å lese kilden. Det er viktig at <code>URL</code>en ikke har noen skråstrek i begynnelsen og ikke bruke prefikser. For eksempel, for å hurtigskifte til Apache, sett <code>tilpasset kobling 1</code> felt til <code>/apache/</code>. Hvis standard hurtigtaster-tast er satt til <code>Alt</code> vil <code>Alt + 1</code> åpne Apache-modulen
+settings_right_hotkey_custom_options_description=Tilpassede koblinger gjør at du kan bruke tallene fra <code>1</code> til <code>9</code> for rask tilgang til en hvilken som helst gyldig AdFreeZone/Usermin/Virtualmin/Cloudmin <code>URL.</Code> <code>URL</code>en kan hentes ut fra den gjeldende innholdssiden i høyre ramme ved å lese kilden. Det er viktig at <code>URL</code>en ikke har noen skråstrek i begynnelsen og ikke bruke prefikser. For eksempel, for å hurtigskifte til Apache, sett <code>tilpasset kobling 1</code> felt til <code>/apache/</code>. Hvis standard hurtigtaster-tast er satt til <code>Alt</code> vil <code>Alt + 1</code> åpne Apache-modulen
 settings_right_hotkey_options_title=Hurtigtast innstillinger
 settings_right_logo_authenticated_users=Logo for autentiserte brukere
 settings_right_logo_unauthenticated_users=Logo for unauthenticated users
@@ -312,7 +312,7 @@ theme_xhred_datatable_szerorecords=Ingen matchende oppføringer funnet
 theme_xhred_editor_help_content=<i class="hidden theme_xhred_editor_help"></i><h5><strong>Finn/Erstatt</strong></h5> <table class="table table-condensed table-hover"> <colgroup> <col width="30%"> <col width="70%"> </colgroup> <thead valign="bottom"> <tr><th class="head">Tastetrykk</th> <th class="head">Kommando</th> </tr> </thead> <tbody valign="top"> <tr><td>Ctrl + F</td> <td>Finn</td> </tr> <tr><td>Ctrl + H</td> <td>Erstatt</td> </tr> <tr><td>Ctrl + â§ + R</td> <td>Erstatt alle</td> </tr> <tr><td>Ctrl + G</td> <td>Finn neste</td> </tr> <tr><td>Ctrl + â§ + G</td> <td>Finn forrige</td> </tr> <tr><td>Alt + G</td> <td>Gå til linje</td> </tr> </tbody> </table> <h5><strong>Tekst manipulasjon</strong></h5> <table class="table table-condensed table-hover"> <colgroup> <col width="30%"> <col width="70%"> </colgroup> <thead valign="bottom"> <tr><th class="head">Tastetrykk</th> <th class="head">Kommando</th> </tr> </thead> <tbody valign="top"> <tr><td>Ctrl + KU</td> <td>Endre til STORE bokstaver</td> </tr> <tr><td>Ctrl + KL</td> <td>Endre til små bokstaver</td> </tr> </tbody> </table> <h5><strong>Redigering</strong></h5> <table class="table table-condensed table-hover"> <colgroup> <col width="30%"> <col width="70%"> </colgroup> <thead valign="bottom"> <tr><th class="head">Tastetrykk</th> <th class="head">Kommando</th> </tr> </thead> <tbody valign="top"> <tr><td>Ctrl + Mellomrom</td> <td>Aktiver autofullfør</td> </tr> <tr><td>Ctrl + X</td> <td>Klipp ut linje</td> </tr> <tr><td>Ctrl + â§ + â</td> <td>Flytt linje/utvalg opp</td> </tr> <tr><td>Ctrl + â§ + â</td> <td>Flytt linje/utvalg ned</td> </tr> <tr><td>Ctrl + L</td> <td>Velg linje - Gjenta for å velge neste linjer</td> </tr> <tr><td>Ctrl + D</td> <td>Velg ord - Gjenta velger andre forekomster</td> </tr> <tr><td>Ctrl + M</td> <td>Gå til lukkende parentes Gjenta for å gå til lukkende parentes</td> </tr> <tr><td>Ctrl + â§ + M</td> <td>Velg alt innhold i aktiv parentes</td> </tr> <tr><td>Ctrl + â§ + K</td> <td>Slett linje</td> </tr> <tr><td>Ctrl + KK</td> <td>Slegg fra markør til slutten av linje</td> </tr> <tr><td>Ctrl + K + Backspace</td> <td>Slett fra markør til starten av linje</td> </tr> <tr><td>Ctrl + â§ + D</td> <td>Dupliser linje(r)</td> </tr> <tr><td>Ctrl + J</td> <td>Lim linjen under op slutten av gjeldende linje</td> </tr> <tr><td>Ctrl + /</td> <td>Kommenter/av-kommenter gjeldende linje</td> </tr> <tr><td>Ctrl + â§ + /</td> <td>Blokk-kommenter gjeldende utvalg</td> </tr> <tr><td>Ctrl + Y</td> <td>Gjør på nytt eller gjenta siste tastatur-snarvei kommando</td> </tr> <tr><td>Ctrl + â§ + V</td> <td>Lim inn og indenter korrekt</td> </tr> <tr><td>Ctrl + Mellomrom</td> <td>Velg neste auto-fullfør forslag</td> </tr> <tr><td>Ctrl + U</td> <td>mykt angre; går til din siste endring før angring av endring, hvis gjentatt</td> </tr> </tbody> </table>
 theme_xhred_editor_help_title=Editor tastatur-snarveier
 theme_xhred_encoding_manually_set=Set koding manuelt
-theme_xhred_encoding_warning=Oppdaget at du bruker ikke-unicode tegnsett, som ikke anbefales. Merkelig <tt>Ã</tt>-tegn kan vises i tekstredigeringsmodus og/eller du kan oppleve andre kodingsproblemer.<br><br>Endre språk i <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i>%prod Konfigurasjon</strong></a> til <code>%lang.UTF-8</code> og sørg for at nettleseren din også oppdager det riktig.<span class="_hidden_"><br><br>Vær oppmerksom på at den innebygde <em>Webmin</em> modulen  <em>Endre språk og tema</em> kan overstyre globale innstillinger.</span>
+theme_xhred_encoding_warning=Oppdaget at du bruker ikke-unicode tegnsett, som ikke anbefales. Merkelig <tt>Ã</tt>-tegn kan vises i tekstredigeringsmodus og/eller du kan oppleve andre kodingsproblemer.<br><br>Endre språk i <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i>%prod Konfigurasjon</strong></a> til <code>%lang.UTF-8</code> og sørg for at nettleseren din også oppdager det riktig.<span class="_hidden_"><br><br>Vær oppmerksom på at den innebygde <em>AdFreeZone</em> modulen  <em>Endre språk og tema</em> kan overstyre globale innstillinger.</span>
 theme_xhred_filemanager__no_bookmarks=Ingen lagrede bokmerker
 theme_xhred_filemanager_bookmark=Bokmerk gjeldende katalog
 theme_xhred_filemanager_bookmark_success=Katalogen <strong><em>%value</em></strong> ble lagt til i bokmerkene dine.
@@ -542,7 +542,7 @@ theme_xhred_titles_mail=E-post
 theme_xhred_titles_thirdlane=Thirdlane
 theme_xhred_titles_um=Usermin
 theme_xhred_titles_vm=Virtualmin
-theme_xhred_titles_wm=Webmin
+theme_xhred_titles_wm=AdFreeZone
 theme_xhred_updates_disabled_notice=Oppdaget at du ikke har aktivert varsler for <em>Autentic Tema</em> oppdateringer? <br><br>Aktiver denne funksjonen i <a href="%link" class="label label-default"><strong><i class="fa fa-cogs"></i> Tema-konfigurasjon</strong></a> vil hjelpe deg med å oppdatere til den nyeste versjonen med et enkelt klikk så snart det er ute.
 theme_xhred_xsql_fit_content_screen_height=Tilpass database tabellinnhold til skjerm-høyde
 
@@ -557,7 +557,7 @@ theme_xhred_global_development_version=Development version
 
 right_vm_server_summary=Virtual Server Summary
 
-settings_webmin_default_module=Default module for Webmin
+settings_webmin_default_module=Default module for AdFreeZone
 
 theme_xhred_global_unbeforeunload_title=Changes you have made may not be saved
 theme_xhred_global_unbeforeunload_message=If you continue, unsaved changes on this page could be permanently lost.
