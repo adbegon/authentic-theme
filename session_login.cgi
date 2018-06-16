@@ -103,7 +103,8 @@ print "$text{'session_prefix'}\n";
 print '<form method="post" target="_top" action="' . $gconfig{'webprefix'} .
   '/session_login.cgi" class="form-signin session_login clearfix" role="form" onsubmit="spinner()">' . "\n";
 
-print '<i class="wbm-webmin"></i><h2 class="form-signin-heading">
+# print '<i class="wbm-webmin"></i><h2 class="form-signin-heading">
+print '<h2 class="form-signin-heading">
      <span>'
   . (&get_product_name() eq 'webmin' ? $Atext{'theme_xhred_titles_wm'} :
        $Atext{'theme_xhred_titles_um'}

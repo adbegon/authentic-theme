@@ -103,7 +103,8 @@ print '<form method="post" action="' . $gconfig{'webprefix'} .
   '/pam_login.cgi" class="form-signin session_login pam_login clearfix" role="form" onsubmit="spinner()">' . "\n";
 print ui_hidden("cid", $in{'cid'});
 
-print '<i class="wbm-webmin"></i><h2 class="form-signin-heading">
+# print '<i class="wbm-webmin"></i><h2 class="form-signin-heading">
+print '<h2 class="form-signin-heading">
      <span>'
   . (&get_product_name() eq 'webmin' ? $Atext{'theme_xhred_titles_wm'} :
        $Atext{'theme_xhred_titles_um'}

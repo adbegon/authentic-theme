@@ -40,7 +40,8 @@ print ui_hidden("user",    $in{'user'});
 print ui_hidden("pam",     $in{'pam'});
 print ui_hidden("expired", $in{'expired'});
 
-print '<i class="wbm-webmin"></i><h2 class="form-signin-heading">
+# print '<i class="wbm-webmin"></i><h2 class="form-signin-heading">
+print '<h2 class="form-signin-heading">
      <span>'
   . (&get_product_name() eq 'webmin' ? $Atext{'theme_xhred_titles_wm'} :
        $Atext{'theme_xhred_titles_um'}
